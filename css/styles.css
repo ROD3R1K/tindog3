@@ -1,0 +1,154 @@
+
+body{
+    font-family: "Montserrat";
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+h1 {  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem; 
+    line-height: 1.5;  
+    font-weight: 900;
+
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+h3{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#title {
+    background: rgb(255,76,104);
+    background: linear-gradient(360deg, rgba(253,58,115,1) 15%, rgba(199,0,191,1) 69%, rgba(132,0,255,1) 100%);
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+    position: relative;
+    z-index: 0;
+}
+.botones{
+    margin: 5% 3% 5% 0%;
+    letter-spacing: 5;
+}
+.btn2{
+  width: 100%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 200%;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.desc1 {
+    color: #8f8f8f;
+}
+.positionFix{
+    position: relative;
+    height: 500px;
+}
+.iphone {
+        left: 60px;
+        width: 75%;
+        transform: rotate(20deg);
+        position: absolute;
+        
+}
+.props{
+    text-align: center;
+}
+
+/*#ef8172;*/
+.colors {
+   color: #FD3A73;
+}
+.colorshover:hover{
+    color: rgba(132,0,255,1);
+ }
+ .perfil {
+    border-radius: 100%;
+    width: 10%;
+    margin: 15px;
+ }
+ #features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+ }
+ #features2 {
+    padding: 2% 15%;
+ }
+#testimonials {
+
+    text-align: center;
+    background-color: #FD3A73;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+#press{
+    background-color: #FD3A73;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.credits{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+        padding: 7% 15%;
+    }
+#pricing{
+    padding-top: 100px;
+    text-align: center;
+}
+.columnpricing{
+    padding: 3% 2%;
+}
+#cta{
+    text-align: center;
+    background-color: #FD3A73;
+    margin-bottom: 0px;
+    padding: 10% 15%;
+    color: white;
+}
+#cta2{
+    padding: 10% 15%;
+    text-align: center;
+}
+.socialicons {
+    margin: 20px 10px;
+}
+.hcta {
+    font-size: 3.5rem;
+}
+.space {
+    margin-top: 55px;
+    line-height: 1.5;
+}
+@media (max-width:800px) {
+    #title {
+        text-align: center;
+    }
+    .positionFix{
+        position: static;
+        transform: rotate(0deg);
+        height: 470px;
+    }
+    .iphone {
+        padding-top: 30px;
+    }
+}
